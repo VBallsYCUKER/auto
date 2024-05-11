@@ -1,6 +1,6 @@
 getgenv().Stats = {-- Name, Rebcap, Statcap, Play Solo ONLY?
     {"USERNAME", REBS, math.huge, false}, 
-    {"USERNAME", REBS, math.huge, false},
+    {"USERNAME", 10000, math.huge, false},
 }
 getgenv().WebHooks = {
     ["Stats"] = "webhook", -- Do you want to log your stat gain progress?
