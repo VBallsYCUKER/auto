@@ -1,5 +1,5 @@
-getgenv().Stats = {-- Name, Rebcap, Statcap, Play Solo ONLY?
-    {"USERNAME", REBS, math.huge, true}, 
+getgenv().Stats = {-- Name, 10000, Statcap, Play Solo ONLY?
+    {"USERNAME", REBS, math.huge, false}, 
     {"USERNAME", REBS, math.huge, true},
 }
 getgenv().WebHooks = {
