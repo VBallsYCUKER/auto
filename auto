@@ -1,10 +1,10 @@
-getgenv().Stats = {-- Name, 10000, Statcap, Play Solo ONLY?
+getgenv().Stats = {-- Name, Rebcap, Statcap, Play Solo ONLY?
     {"USERNAME", REBS, math.huge, false}, 
-    {"USERNAME", REBS, math.huge, true},
+    {"USERNAME", REBS, math.huge, false},
 }
 getgenv().WebHooks = {
     ["Stats"] = "webhook", -- Do you want to log your stat gain progress?
-    ["Rebs"] = "webhook", -- Do you want to log your reb gain progress?
+    ["10000"] = "webhook", -- Do you want to log your reb gain progress?
 }
 -- This file was generated using Luraph Obfuscator v14.0.3 [https://lura.ph/]
 
